@@ -1,0 +1,36 @@
+body {
+    background-color: grey;
+  }
+navbar  { 
+  height: 100px;
+  color: ghostwhite;
+  }
+  h3 {
+    color:black; 
+    text-align: left;
+  }
+  ul li {
+    color:white;
+    display:inline;
+    list-style: none;
+}
+p {
+  color: black; 
+}
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 10px darkgray ;
+  padding: 50px;
+  margin: 20px;
+}
+.container {
+flex-direction: row;
+}
+.box {
+  display: flex; 
+  flex-direction: column;
+}
+button :hover {
+background-color: white;
+}
